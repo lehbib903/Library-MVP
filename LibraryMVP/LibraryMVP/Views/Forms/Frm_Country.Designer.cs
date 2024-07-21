@@ -1,7 +1,7 @@
 ﻿
 namespace LibraryMVP.Views.Forms
 {
-    partial class Frm_Category
+    partial class Frm_Country
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,7 @@ namespace LibraryMVP.Views.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Category));
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Country));
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnNew = new DevExpress.XtraEditors.SimpleButton();
             this.btnDeleteAll = new DevExpress.XtraEditors.SimpleButton();
@@ -48,21 +47,11 @@ namespace LibraryMVP.Views.Forms
             this.txtID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Dgv = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(288, 560);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1096, 476);
-            this.dataGridView1.TabIndex = 14;
             // 
             // groupBox3
             // 
@@ -71,13 +60,13 @@ namespace LibraryMVP.Views.Forms
             this.groupBox3.Controls.Add(this.btnDelete);
             this.groupBox3.Controls.Add(this.btnSave);
             this.groupBox3.Controls.Add(this.btnAdd);
-            this.groupBox3.Location = new System.Drawing.Point(15, 149);
+            this.groupBox3.Location = new System.Drawing.Point(23, 149);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox3.Size = new System.Drawing.Size(599, 106);
-            this.groupBox3.TabIndex = 13;
+            this.groupBox3.Size = new System.Drawing.Size(599, 116);
+            this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "العمليات المتاحة";
             // 
@@ -147,16 +136,15 @@ namespace LibraryMVP.Views.Forms
             this.groupBox2.Controls.Add(this.btnLast);
             this.groupBox2.Controls.Add(this.btnPrevies);
             this.groupBox2.Controls.Add(this.btnNext);
-            this.groupBox2.Location = new System.Drawing.Point(180, 74);
+            this.groupBox2.Location = new System.Drawing.Point(187, 69);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(266, 78);
-            this.groupBox2.TabIndex = 12;
+            this.groupBox2.Size = new System.Drawing.Size(266, 86);
+            this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "اسهم التنقل";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btnFirst
             // 
@@ -201,15 +189,15 @@ namespace LibraryMVP.Views.Forms
             this.groupBox1.Controls.Add(this.txtID);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(15, 7);
+            this.groupBox1.Location = new System.Drawing.Point(22, -3);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(6);
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(529, 76);
-            this.groupBox1.TabIndex = 11;
+            this.groupBox1.Size = new System.Drawing.Size(529, 72);
+            this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "بيانات التصنيفات";
+            this.groupBox1.Text = "بيانات الدول";
             // 
             // txtName
             // 
@@ -228,9 +216,9 @@ namespace LibraryMVP.Views.Forms
             this.label2.Location = new System.Drawing.Point(134, 33);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 28);
+            this.label2.Size = new System.Drawing.Size(105, 28);
             this.label2.TabIndex = 2;
-            this.label2.Text = "اسم التصنيف :";
+            this.label2.Text = "اسم الدولة :";
             // 
             // txtID
             // 
@@ -249,36 +237,34 @@ namespace LibraryMVP.Views.Forms
             this.label1.Location = new System.Drawing.Point(396, 33);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 28);
+            this.label1.Size = new System.Drawing.Size(102, 28);
             this.label1.TabIndex = 0;
-            this.label1.Text = "رقم التصنيف :";
+            this.label1.Text = "رقم الدولة :";
             // 
             // Dgv
             // 
             this.Dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgv.Location = new System.Drawing.Point(15, 264);
+            this.Dgv.Location = new System.Drawing.Point(22, 277);
             this.Dgv.Name = "Dgv";
             this.Dgv.Size = new System.Drawing.Size(593, 212);
-            this.Dgv.TabIndex = 15;
+            this.Dgv.TabIndex = 19;
             // 
-            // Frm_Category
+            // Frm_Country
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(625, 498);
+            this.ClientSize = new System.Drawing.Size(633, 503);
             this.Controls.Add(this.Dgv);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "Frm_Category";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Name = "Frm_Country";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "التصنيفات";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "الدول";
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -290,7 +276,6 @@ namespace LibraryMVP.Views.Forms
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox3;
         private DevExpress.XtraEditors.SimpleButton btnNew;
         private DevExpress.XtraEditors.SimpleButton btnDeleteAll;
