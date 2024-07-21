@@ -33,8 +33,7 @@ namespace LibraryMVP.Views.Forms
 
         private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Frm_Authors frm = new Frm_Authors();
-            frm.ShowDialog();
+           
         }
 
         private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)

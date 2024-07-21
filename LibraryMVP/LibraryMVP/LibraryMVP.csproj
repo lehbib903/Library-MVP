@@ -66,12 +66,6 @@
     <Compile Include="Views\Forms\Frm_Main.Designer.cs">
       <DependentUpon>Frm_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Frm_Authors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Frm_Authors.Designer.cs">
-      <DependentUpon>Frm_Authors.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\Frm_BookPlace.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +87,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_Main.resx">
       <DependentUpon>Frm_Main.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Frm_Authors.resx">
-      <DependentUpon>Frm_Authors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Frm_BookPlace.resx">
       <DependentUpon>Frm_BookPlace.cs</DependentUpon>

@@ -54,5 +54,4 @@ C:\Users\hadil\source\repos\LibraryMVP\LibraryMVP\obj\Debug\LibraryMVP.exe
 C:\Users\hadil\source\repos\LibraryMVP\LibraryMVP\obj\Debug\LibraryMVP.pdb
 C:\Users\hadil\source\repos\LibraryMVP\LibraryMVP\bin\Debug\DevExpress.BonusSkins.v19.2.dll
 C:\Users\hadil\source\repos\LibraryMVP\LibraryMVP\obj\Debug\LibraryMVP.Views.Forms.Frm_Category.resources
-C:\Users\hadil\source\repos\LibraryMVP\LibraryMVP\obj\Debug\LibraryMVP.Views.Frm_Authors.resources
 C:\Users\hadil\source\repos\LibraryMVP\LibraryMVP\obj\Debug\LibraryMVP.Views.Frm_BookPlace.resources
