@@ -140,6 +140,7 @@ namespace LibraryMVP.Views.Forms
             this.btnAdd.Size = new System.Drawing.Size(109, 41);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "اضافة";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // groupBox2
             // 

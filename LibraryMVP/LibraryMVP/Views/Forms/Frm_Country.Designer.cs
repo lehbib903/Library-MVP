@@ -129,6 +129,7 @@ namespace LibraryMVP.Views.Forms
             this.btnAdd.Size = new System.Drawing.Size(109, 41);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "اضافة";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // groupBox2
             // 
@@ -259,7 +260,7 @@ namespace LibraryMVP.Views.Forms
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Droid Arabic Kufi", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Frm_Country";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
